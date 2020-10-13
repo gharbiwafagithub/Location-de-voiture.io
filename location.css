@@ -1,51 +1,15 @@
-header {
-      width: 100%;
-      height: 100vh;
-      background-size: cover;
-      background-image: url("fond.jpg");
+#copyright{text-align: center;}
 
-      
-      }
-      p {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      h1 {font-family: cursive;
-text-align: center;
-}
-
-    .trn {background-color: white;
-    	line-height: 15px;
-    	padding:0;
-        position: absolute;
-        width: 100%;}
-    #texte1 {font-family:  italic;
-    	text-align: left;}
+	  .menu{background-color: white;
+		line-height: 15px;
+		padding:0;
+	    position: fixed;
+	    width: 100%;
+	       }
 
 
-
-
-nav ul {
-      line-height: 10px;
-      text-align: right;
-      margin: 0;
-      padding-right: 40px;
-}
-
-nav ul li {
-      display: inline-block;
-      padding: 8px 18px;;
-}
-
-nav ul li a {
-      text-decoration: none;
-      color:black;
-      font-size: 16px;
-}
-li a:hover {
-  color: blue;
-
-
-<!----------------card------------------->
+   
+<!----------------cards------------------->
 .flip-card {
   background-color: transparent;
   width: 300px;
@@ -87,15 +51,131 @@ li a:hover {
 }
 <! -------------FLEXCONTAINERS--------------->
 
-.flex-container {
+.flex-container1{
   display: flex;
   background-color: DodgerBlue;
 
+
 }
 
-.flex-container > div {
-  background-color: black;
+.flex-container1> div {
+  background-color: transparent;
   margin: 10px;
   padding: 20px;
   font-size: 30px;
 }
+
+
+.flex-container2 {
+  display: flex;
+  background-color: DodgerBlue;
+  
+
+}
+
+.flex-container2 > div {
+  background-color: transparent;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
+.flex-container3 {
+  display: flex;
+  background-color: DodgerBlue;
+  
+
+}
+
+.flex-container3 > div {
+  background-color:transparent;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.flex-container
+<!------mise en page du premier pragraphe------->
+	
+.paragraphe1{ margin-left: 15%;
+  margin-top: 30px;
+  width: 900px;
+  height: 200px;
+  padding: 25px;
+  box-shadow: 10px 10px 10px #000000   ;}
+    
+    .why{display: flex;
+  flex-img1-right, .flex-paragraphe1-left {
+    flex: 100%;}
+
+    .paragraphe1 {font-family: italic;
+	text-align: left;
+border:1px solid;}
+}
+  <!------------------------------------------->
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {font-family: cursive;
+text-align: center;
+color: blue;
+}
+<!---------------header-------------------------->
+
+<!-----barre de navigation--------------------->
+
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: black;
+      position: fixed;
+    }
+
+    li { 
+      float: right;
+
+    }
+
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+
+    }
+
+    li a:hover {
+      font-size: 150%;
+      color:blue;
+
+    }
+    li {
+      border-right: 1px solid black;
+    }
+
+    li:only-child {
+      border-right: none;
+    }
+    li :last-child{
+      border-right: none;
+    }
+    ul {
+      position: -webkit-sticky; 
+      position: sticky;
+      top: 0; 
+      list-style-type: none;
+      }
+
+  li.dropdown {
+      display: inline-block;
+    }
+    header {
+          width: 100%;
+          height: 100vh;
+          background-size: cover;
+          background-image: url("fond.jpg")
+      }
